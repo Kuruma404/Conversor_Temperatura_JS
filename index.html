@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website!</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+
+   <form>
+
+        <h1>Conversor de Temperatura: </h1>
+        <input type="number" id = "textBox" value = "0"> 
+        <br>
+
+        <input type = "radio" id = "emFahrenheit" name = "unit">
+        <label for="conversao">Celsius para Fahrenheit</label>
+        <br>
+
+        <input type = "radio" id = "emCelsius" name = "unit">
+        <label for="conversao">Fahrenheit para Celsius</label>
+        <br>
+
+        <button type = "button" onclick = "converter()">ENVIAR</button>
+        <p id = "resultado"></p>
+
+   </form>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
